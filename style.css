@@ -1,0 +1,103 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* my css */
+
+.git {
+    text-align: center;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 20px 20px 20px 20px;
+    color: #3b4857;
+}
+
+.header {
+    background-color: #e7fbff;
+    width: 560px;
+    height: 540px;
+    border-top: 2px solid black;
+}
+
+.block1 {
+    background-color: #5cc6e8;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 500px;
+    height: 100px;
+    padding: 15px 15px 15px 15px;
+    margin: 7px 7px 7px 15px;
+}
+
+.block2 {
+    background-color: #d8a1aa;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 500px;
+    height: 100px;
+    padding: 15px 15px 15px 15px;
+    margin: 7px 7px 7px 15px;
+}
+
+.block3 {
+    background-color: #fcfcf8;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 500px;
+    height: 100px;
+    padding: 15px 15px 15px 15px;
+    margin: 7px 7px 7px 15px;
+}
+.footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2px 8px 8px 8px;
+    font-size: 11px;
+    text-align: center;
+    color: #909083;
+}
